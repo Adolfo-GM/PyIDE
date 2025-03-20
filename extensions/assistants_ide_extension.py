@@ -8,6 +8,7 @@ def extend_ide(ide):
     ide.menu_bar.add_cascade(label="AI Assistants", menu=ai_menu)
 
     ai_services = {
+        "AggmGPT":"https://aggmgpt.netlify.app/",
         "ChatGPT": "https://chat.openai.com/",
         "Grok": "https://xai.com/grok",
         "Copilot": "https://copilot.microsoft.com/",
